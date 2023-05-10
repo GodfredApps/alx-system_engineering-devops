@@ -54,4 +54,5 @@ def count_words(subreddit, word_list, new_after='',
                 print("{}: {}".format(i[0], i[1]))
         return
 
-    return count_words(subreddit, word_list, new_after, words_dict)
+    return count_words(subreddit, word_list, 
+                       new_after, words_dict)
